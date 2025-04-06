@@ -6,7 +6,7 @@ let web3;
 async function initWeb3() {
     try {
         if (typeof window.ethereum === "undefined") {
-            alert("请安装 MetaMask 钱包！");
+            alert("请在钱包中打开领取！");
             console.error("未检测到 MetaMask！");
             return false;
         }
